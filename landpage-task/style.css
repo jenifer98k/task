@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,500,600,700,800,900&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+ scroll-behavior: smooth;
+  }
+p{
+  font-weight: 300;
+  color: #111;
+}
+body{
+  min-height: 1000px;
+}
+/*--------------------------BANNER---------------------------------------*/
+.banner{
+ position: relative;
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color:#19191b ;
+ background-size: cover;
+}
+.banner .content {
+  max-width: 900px;
+  text-align: center;
+}
+.banner .content  h2{
+  font-size: 5em;
+  color:#fff
+}
+.banner .content  p{
+  font-size: 1em;
+  color: #fff;
+}
+.btn{
+  font-size: 1em;
+  color: #fff;
+  background:#19191b;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5%;
+}
+.btn:hover{
+  letter-spacing: 6px;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+header.sticky{
+background-color: #fff;
+padding: 10px 100px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+color: #111;
+}
+header .logo{
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+header.sticky .logo{
+  color:#111
+ }
+
+header .logo span{
+  color: #ff0157;
+}
+header .navigation{
+  position: relative;
+  display: flex;
+}
+header .navigation li{
+  list-style: none;
+  margin-left: 30px;
+}
+header .navigation li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300 ;
+}
+header.sticky .navigation li a{
+  color:#111;
+}
+header.sticky .navigation li a:hover{
+color: #ff0157;
+}
+section{
+  padding: 100px;
+}
+/*-------------------------ABOUT----------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+
+/*----------------end---------------------------------*/
+
+.about .content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  background-color:#19191b;
+  padding-bottom: 40px;
+}
+.about .content .box{
+  width: 340px;
+  margin: 20px;
+ border: 15px solid #fff;
+ box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.about .content .box3{
+  padding-top: 100px;
+  color: white;
+}
+.about .content .box .imgBx{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.about .content .box .imgBx .img3{
+  position: absolute;
+ top: 0;
+ left: 0;
+  width: 450px;
+  height:500px;
+  object-fit: cover;
+  margin-left: -150px;
+ 
+}
+
+
+.about .content .box3 .text{
+
+width: 28.75rem;
+height: 6.563rem;
+margin: 1.5rem 0 0;
+font-family: CircularStd;
+font-size: 1.181rem;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.86;
+letter-spacing: -0.59px;
+color:rgba(255, 255, 255, 0.7);
+}
+.btn3{
+  background-color: #5454d4;
+  width: 10.625rem;
+  height: 1.938rem;
+  font-family: CircularStd;
+  font-size: 0.731rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.37px;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+.whiteTitle{
+  width: 28.75rem;
+  height: 7.875rem;
+  margin: 1.5rem 0;
+  font-family: CircularStd;
+  font-size: 3.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+  
+/*--------------------------DUPLICATE MENU menu-d ---------------------------*/
+section{
+  background-color: #19191b;
+}
+.menud{
+  background-color: #19191b;
+  color: #fff;
+}
+.menud .content .box2 .sub-para{
+  padding-top: 5px;
+  color: #fff;
+  width: 13.813rem;
+  height: 3.125rem;
+  margin: 0.688rem 0 0;
+  font-family: CircularStd;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  text-align: center;
+}
+.menud .content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+ padding-top: 10px;
+  margin-top: 40px;
+  background-color: #19191b;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+.menud .content .box2{
+ /*width: 500px;
+ height: 00px;
+  margin: 0px;*/
+  width: 390px;
+  margin: 20px;
+color: #fff;
+ box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+ 
+ box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+ padding: 50px;
+
+
+}
+
+.menu .content .box2 .imgBx2{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+}
+
+/*----------------end---------------------------------*/
+.title{
+  width: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column ;
+}
+.menu .content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.menu .content .box{
+  width: 340px;
+  margin: 20px;
+ border: 15px solid #fff;
+ box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.menu .content .box .imgBx{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.menu .content .box .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu .content .box .text{
+  padding: 15px 0 5px;
+}
+.menu .content .box .text h3{
+  font-weight: 400;
+  color: #111;
+}
+.expert .content{
+display: flex;
+justify-content: center;
+flex-wrap:wrap ;
+flex-direction: row;
+margin-top: 40px;
+}
+.expert .content .box{
+width:250px ;
+margin: 15px;
+}
+.expert .content .box .imgBx{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.expert .content .box .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.expert .content .box .text{
+  padding: 15px 0 5px;
+}
+.expert .content .box .text h3{
+  font-weight: 400 ;
+  color: #111;
+}
+/*--------------------------------Home Page------------------------------*/
+.testimonials{
+  background-color: #19191b;
+  background-size: cover;
+}
+.h2{
+  width: 35.75rem;
+  height: 15rem;
+  margin: 0 0 1.312rem;
+  font-family: CircularStd;
+  font-size: 4.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: -2.25px;
+  color: #fff;
+  padding: 20px;
+}
+
+.testimonials .content{
+display: flex;
+justify-content:flex-start;
+flex-wrap: wrap;
+flex-direction: row;
+margin-top: 40px;
+background-color:#19191b;
+}
+.testimonials .content .box{
+  width:540px ;
+  margin-left: 30px;
+  padding: 40px;
+  background-color:#19191b ;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+  }
+  .testimonials .content .box .imgBx{
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+  }
+  .imgBx1{
+    background-color:#19191b;
+  }
+  .box1{
+    width:150px ;
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+  }
+  .img11{
+    height: 500px;
+  }
+  .testimonials .content .box .text{
+    text-align: center;
+  }
+  .testimonials .content .box .text p{
+    width: 30.125rem;
+  height: 6.563rem;
+ margin-left: -150px;
+  font-family: CircularStd;
+  font-size: 1.181rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color:white;
+  }
+ /*888888888888888888888888888  HOME END .........................*/
+  .contact{
+    background-image:url('./imgfolder//dum1.jpg') ;
+    background-size: cover;
+  }
+  .contactForm{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.01);
+    max-width: 500px;
+    margin-top: 50px;
+  }
+  .contactForm h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .contactForm .inputBox{
+    position:relative;
+    width:100% ;
+    margin-bottom: 20px;
+  }
+  .contactForm .inputBox input,
+  .contactForm .inputBox textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+  }
+  .contactForm .inputBox input[type='submit']{
+font-size: 1rem ;
+color: #fff;
+background-color: #ff0157;
+display: inline-block;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 2px;
+transition: 0.5s;
+max-width: 100px;
+font-weight: 500;
+border: none;
+cursor: pointer;
+  }
+  .copyrightText p{
+color: #333;
+  }
+  .copyrightText a{
+    color: #ff0157;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  @media(max-width:991px)
+    {
+      header,
+      header.sticky
+{
+padding: 10px 20px;
+}
+  header .navigation{
+    display: none;
+  } 
+}   
+   .menuToggle{
+    position: relative;
+    width: 150px;
+    height: 40px;
+   background-color: #ff0157;
+    background-size: 30px;
+    background-repeat: no-repeat;
+ padding: 5px;
+    cursor: pointer;
+ border-radius: 3px;
+ 
+   } 
+ 
